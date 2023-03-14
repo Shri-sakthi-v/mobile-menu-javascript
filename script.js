@@ -46,5 +46,15 @@ div.appendChild(links);
 divWrap.append(div);
 home.appendChild(divWrap);
 
+for (let i = 0; i < linksChilds.length; i += 1) {
+  const elementChildren = linksChilds[i].children;
+  elementChildren[0].addEventListener('click', () => {
+    divWrap.style.display = 'none';
+  });
+  for (let j = 0; j < Object.keys(property).length; j += 1) {
+    elementChildren[0].style[Object.keys(property)[j]] = property[Object.keys(property)[j]];
+  }
+  console.log(elementChildren);
+}
 });
 
