@@ -114,6 +114,12 @@ To use this project on the `index.html` file with your prefered browser
 - Twitter: [@shrisakthi](https://twitter.com/shrisakthi)
 - LinkedIn: [shrisakthi](https://linkedin.com/in/shrisakthi)
 
+👤 **MAKAMA**
+
+- GitHub: [@Tshepo45](https://github.com/Tshepo45)
+- Twitter: [@MAKAMA](https://twitter.com/MAKAMA)
+- LinkedIn: [MAKAMA](https://linkedin.com/in/MAKAMA)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
