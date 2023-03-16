@@ -1,3 +1,42 @@
+const projects = {
+  p1: {
+    name: 'Tonic     ',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    img: 'assets/Snapshoot Portfolio.png',
+    technolgies: ['HTML', 'CSS', 'Javascript'],
+    linkToLiveVersion: '#',
+    linkToSource: '#',
+    generalInf: ['CANOPY', 'Back End Dev', 2023],
+  },
+  p2: {
+    name: 'Multi-Post Stories',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    img: 'assets/Snapshoot Portfolio (1).png',
+    technolgies: ['HTML', 'CSS', 'Javascript'],
+    linkToLiveVersion: '#',
+    linkToSource: '#',
+    generalInf: ['CANOPY', 'Back End Dev', 2023],
+  },
+  p3: {
+    name: 'Tonic     ',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    img: 'assets/Snapshoot Portfolio (2).png',
+    technolgies: ['HTML', 'CSS', 'Javascript'],
+    linkToLiveVersion: '#',
+    linkToSource: '#',
+    generalInf: ['CANOPY', 'Back End Dev', 2023],
+  },
+  p4: {
+    name: 'Multi-Post Stories',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    img: 'assets/Snapshoot Portfolio (3).png',
+    technolgies: ['HTML', 'CSS', 'Javascript'],
+    linkToLiveVersion: '#',
+    linkToSource: '#',
+    generalInf: ['CANOPY', 'Back End Dev', 2023],
+  },
+};
+
 
 const myWork = document.querySelector('#working');
 
