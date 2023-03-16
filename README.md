@@ -45,8 +45,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Added mobile menu feature using the javascript DOM manipulation**
-- **used the querSelector method to do DOM manipulation**
+- **Added the Pop Up window feature**
+- **used mobile menu feature using the javascript DOM manipulation**
 - **Added open and close icon in the mobile menu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
