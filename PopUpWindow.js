@@ -105,6 +105,7 @@ const infos = document.createElement('p');
 const image = document.createElement('img');
 const description = document.createElement('p');
 const skills = document.createElement('ul');
+const fullwindow = document.createElement('div');
 
 imgWrapper.classList.add('pop-header-div');
 cancelBtn.src = 'assets/component.svg';
@@ -143,13 +144,20 @@ wrapper.appendChild(infos);
 wrapper.appendChild(image);
 wrapper.appendChild(mobilePart);
 
-wrapper.style.zIndex = '999';
+/*wrapper.style.zIndex = '999';
 wrapper.style.position = 'absolute';
-wrapper.style.top = '0';
+wrapper.style.top = '0'; rd*/
+fullwindow.style.zIndex = '999';
+fullwindow.style.position = 'absolute';
+fullwindow.style.top = '0'; 
+fullwindow.style.width= '100%';
 
 wrapper.classList.add('pop-window');
 wrapper.style.visibility = 'hidden';
-home.appendChild(wrapper);
+/*home.appendChild(wrapper); rd*/
+fullwindow.appendChild(wrapper);
+fullwindow.classList.add('full-window');
+home.appendChild(fullwindow);
 
 popUpBtn.forEach((btn) => {
   btn.addEventListener('click', () => {
@@ -171,12 +179,17 @@ popUpBtn.forEach((btn) => {
     wrapper.style.visibility = 'visible';
 
     wrapper.style.position = 'fixed';
+    fullwindow.style.visibility = 'visible';
+
+    fullwindow.style.position = 'fixed';
   });
 });
-const cancel = document.querySelector('.pop-header-div');
+const cancel = document.querySelector('.pop-header-div, .pop-header');
 
 cancel.addEventListener('click', () => {
   document.querySelector('.pop-window').style.visibility = 'hidden';
   home.style.backgroundColor = '#fff';
   wrapper.style.position = 'hidden';
+  fullwindow.style.position = 'hidden';
+
 });
