@@ -677,7 +677,7 @@ span {
   margin-top: 12px;
   margin-bottom: 0;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 40px;
   color: #172b4d;
   font-family: Poppins, sans-serif;
   line-height: 44px;
@@ -817,6 +817,7 @@ span {
   #p1 {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-bottom: 100px;
     width: 80%;
     margin-left: 10%;
     grid-column-gap: 20px;
