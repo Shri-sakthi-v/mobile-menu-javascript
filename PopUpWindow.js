@@ -144,17 +144,17 @@ wrapper.appendChild(infos);
 wrapper.appendChild(image);
 wrapper.appendChild(mobilePart);
 
-/*wrapper.style.zIndex = '999';
+/* wrapper.style.zIndex = '999';
 wrapper.style.position = 'absolute';
-wrapper.style.top = '0'; rd*/
+wrapper.style.top = '0'; rd */
 fullwindow.style.zIndex = '999';
 fullwindow.style.position = 'absolute';
-fullwindow.style.top = '0'; 
-fullwindow.style.width= '100%';
+fullwindow.style.top = '0';
+fullwindow.style.width = '100%';
 
 wrapper.classList.add('pop-window');
 wrapper.style.visibility = 'hidden';
-/*home.appendChild(wrapper); rd*/
+/* home.appendChild(wrapper); rd */
 fullwindow.appendChild(wrapper);
 fullwindow.classList.add('full-window');
 home.appendChild(fullwindow);
@@ -191,5 +191,4 @@ cancel.addEventListener('click', () => {
   home.style.backgroundColor = '#fff';
   wrapper.style.position = 'hidden';
   fullwindow.style.position = 'hidden';
-
 });
