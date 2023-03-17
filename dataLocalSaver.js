@@ -9,6 +9,16 @@ function localstorage() {
   };
   localStorage.setItem('userInput', JSON.stringify(userInput));
 }
+function setForm() {
+  const storedInput = JSON.parse(localStorage.getItem('userInput'));
+  const currentUserName = storedInput.name;
+  const currentUserEmail = storedInput.email;
+  const currentMessage = storedInput.message;
+
+  form.elements.name.value = currentUserName;
+  form.elements.email.value = currentUserEmail;
+  form.elements.message.value = currentMessage;
+}
 if (!localStorage.getItem('userInput')) {
   localstorage();
 } else {
