@@ -1,3 +1,4 @@
+const form = document.querySelector('form');
 const userName = form.elements.name;
 const userEmail = form.elements.email;
 const userMessage = form.elements.message;
