@@ -45,6 +45,7 @@
 
 ### Key Features <a name="key-features"></a>
 
+- **Added the form validation feature**
 - **Added the Pop Up window feature**
 - **used mobile menu feature using the javascript DOM manipulation**
 - **Added open and close icon in the mobile menu**
