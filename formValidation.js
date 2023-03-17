@@ -8,6 +8,14 @@ function showMessage(form, invalidMsg) {
   target.innerText = invalidMsg;
 }
 
+function validateEmail(form, input, invalidMsg) {
+  if (isLowerCase(input)) {
+    return true;
+  }
+  showMessage(form, invalidMsg);
+  return false;
+}
+
 const form = document.querySelector('form');
 const msg = 'THE FORM IS NOT SENT, THE EMAIL SHOULD BE IN LOWERCASE.';
 form.addEventListener('submit', (event) => {
